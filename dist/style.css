@@ -22,21 +22,21 @@ h1>span,.number,.strip span:before,.benefit-grid article>span,.price-panel p:bef
 .setup{background:#fcf6e8;color:#20232a}.setup .eyebrow,.setup h2,.checklist{color:#20232a}.setup p{color:#626771}.checklist li{border-color:#e5d7b4}.checklist span{color:#906b1e}
 .setup-notice{background:#fff;border:1px solid #e5d7b4}.setup-notice strong{color:#20232a}.setup-notice button{background:#20232a;color:#fff}.risk{color:#626771}
 
-/* Glowing plum and gold theme */
-:root{--ink:#f3e8fa;--green:#e1bd64;--muted:#d2bfdf}
-body{background:radial-gradient(ellipse 85% 750px at 90% 200px,#8647a780,transparent 72%),radial-gradient(ellipse 70% 650px at 0% 500px,#a275a766,transparent 75%),#422650;color:var(--ink)}
-header{background:#4c2e5acc;border-color:#795386}.mark{background:#e1bd64;color:#482756;box-shadow:0 0 20px #e1bd6436}
-.button{background:linear-gradient(115deg,#e1bd64,#f1d798);color:#482756;box-shadow:0 7px 25px #e1bd6433}.button:hover{background:#f1d798;box-shadow:0 9px 30px #e1bd6455}
-a:focus-visible,button:focus-visible,summary:focus-visible{outline-color:#e1bd64}
-h1>span,.eyebrow,.number,.strip span:before,.benefit-grid article>span,.mini-brand,.bot-flow i,.process li>span{color:#f0ce83}
-nav a:hover,.text-link:hover{color:#f0ce83}.hero-note span{color:#c7aed7}
-.strip{background:linear-gradient(110deg,#684276,#573466,#744880);border-color:#92659c;color:#f3e8fa}
-.dark{background:radial-gradient(ellipse at 90% 15%,#a071b580,transparent 65%),radial-gradient(ellipse at 0% 90%,#c192bd66,transparent 65%),#5b366d;color:#f3e8fa}
-.dark .eyebrow,.dark h2 span{color:#f0ce83}.dark p{color:#ddcbe7}
-.terminal{background:#eadbf1;color:#482756;border-color:#d0afd9;box-shadow:0 0 0 7px #a970bd33,0 0 65px #ca93dc55,0 24px 65px #42265044}
-.terminal-top,.terminal-controls{border-color:#cba9d5}.terminal-top,.muted,.chart-label,.preview-note{color:#755382}.mini-brand,.bot-flow i{color:#795b22}.status{color:#795b22;background:#ecd6a7;border-color:#c4a166}.bot-flow{background:#dac3e5}
-.process{background:#694778;border-color:#9b73a9;box-shadow:0 0 35px #bd81d233}.process-head>span{color:#e0cbe9}.process li{border-color:#9769a5;opacity:.8}.process li.active{background:#815990;opacity:1}#demo-toggle{color:#f3e8fa;border-color:#bd95ca}
-.price-panel{background:linear-gradient(145deg,#eadbf1,#d9c1e5);color:#482756;border-color:#cba9d5;box-shadow:0 0 40px #bd81d233}.price-panel p,.price-panel small,.price span{color:#755382}.price-panel p:before{color:#795b22}.price-panel hr,.price-panel small{border-color:#cba9d5}
-.setup{background:radial-gradient(ellipse at 0% 30%,#bb85c466,transparent 70%),radial-gradient(ellipse at 100% 70%,#dcacd566,transparent 70%),#d9c1e5;color:#482756}.setup .eyebrow,.setup h2,.checklist{color:#482756}.setup p{color:#755382}.checklist li{border-color:#b593c4}.checklist span{color:#795b22}.setup-notice{background:#ebdcf1;border-color:#cba9d5;box-shadow:0 10px 35px #80509122}.setup-notice strong{color:#482756}.setup-notice button{background:#e1bd64;color:#482756}
-.number,.benefit-grid article,.faq-list details,.faq-list details:first-child,footer,.risk{border-color:#855e95}.closing{background:radial-gradient(ellipse at center,#a46fb655,transparent 70%)}.risk{color:#d2bfdf}
-@media(max-width:720px){body{background:radial-gradient(ellipse 130% 700px at 0% 350px,#a46fb655,transparent 70%),radial-gradient(ellipse 130% 850px at 100% 900px,#c38dce55,transparent 70%),#422650}}
+/* Light lavender with red, white, gold and green accents */
+:root{--ink:#382846;--green:#d5ad52;--muted:#685b74}
+body{background:radial-gradient(ellipse 85% 750px at 90% 200px,#c4a6e055,transparent 72%),radial-gradient(ellipse 70% 650px at 0% 500px,#e8c1d955,transparent 75%),#eee3f3;color:var(--ink)}
+header{background:#e8d8eeeb;border-color:#cfb8db}.mark{background:#ad3044;color:#fff;box-shadow:0 0 20px #ad304422}
+.button{background:linear-gradient(115deg,#bd354a,#a7253a);color:#fff;box-shadow:0 7px 25px #ad304425}.button:hover{background:#962438;box-shadow:0 9px 30px #ad304438}
+a:focus-visible,button:focus-visible,summary:focus-visible{outline-color:#ad3044}
+h1>span{color:#a72b41}.eyebrow,.number,.benefit-grid article>span{color:#916719}.strip span:before,.process li>span,.checklist span,.price-panel p:before{color:#25704c}
+nav a:hover,.text-link:hover{color:#a72b41}.hero-note span{color:#9a82a9}
+.strip{background:linear-gradient(110deg,#e1cde8,#e6d5ec,#d9d9de);border-color:#cdb7d9;color:#382846}
+.dark{background:radial-gradient(ellipse at 90% 15%,#d7b3e380,transparent 65%),radial-gradient(ellipse at 0% 90%,#d0d9c966,transparent 65%),#e1cfe8;color:#382846}
+.dark .eyebrow{color:#916719}.dark h2 span{color:#25704c}.dark p{color:#685b74}
+.terminal{background:#e8d9ed;color:#382846;border-color:#c9b0d5;box-shadow:0 0 0 7px #f7edf833,0 0 55px #ba8bcb44,0 24px 65px #79538d22}
+.terminal-top,.terminal-controls{border-color:#c9b0d5}.terminal-top,.muted,.chart-label,.preview-note{color:#685b74}.mini-brand{color:#916719}.status{color:#25704c;background:#d4e8da;border-color:#94bba3}.bot-flow{background:#f6edf8}.bot-flow i{color:#a72b41}
+.process{background:#efdfef;border-color:#c9b0d5;box-shadow:0 0 35px #b687c722}.process-head>span{color:#685b74}.process li{border-color:#d2badb;opacity:.8}.process li.active{background:#dce9dc;opacity:1}#demo-toggle{color:#382846;border-color:#bba2c7}
+.price-panel{background:linear-gradient(145deg,#eed9a8,#e7cc92);color:#382846;border-color:#c3a263;box-shadow:0 0 40px #d5ad5230}.price-panel p,.price-panel small,.price span{color:#66543d}.price-panel hr,.price-panel small{border-color:#c3a263}
+.setup{background:radial-gradient(ellipse at 0% 30%,#c7ddc955,transparent 70%),radial-gradient(ellipse at 100% 70%,#dfd1e966,transparent 70%),#dce8da;color:#382846}.setup .eyebrow{color:#916719}.setup h2,.checklist{color:#382846}.setup p{color:#586550}.checklist li{border-color:#b5c6ad}.setup-notice{background:#eae1ef;border-color:#c9b0d5;box-shadow:0 10px 35px #80509115}.setup-notice strong{color:#382846}.setup-notice button{background:#25704c;color:#fff}
+.number,.benefit-grid article,.faq-list details,.faq-list details:first-child,footer,.risk{border-color:#cbb5d7}.closing{background:radial-gradient(ellipse at center,#ead29855,transparent 70%)}.risk{color:#685b74}
+@media(max-width:720px){body{background:radial-gradient(ellipse 130% 700px at 0% 350px,#d1b2e155,transparent 70%),radial-gradient(ellipse 130% 850px at 100% 900px,#e8c1d955,transparent 70%),#eee3f3}}
